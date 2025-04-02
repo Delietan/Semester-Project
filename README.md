@@ -11,7 +11,7 @@
 
 ### Functionality of the software
 
-- This software allows an receptionist to manage employees and scheduled deliveries.
+- This software allows a receptionist to manage employees and scheduled deliveries.
 
 ## How to install and run this web application:
 
