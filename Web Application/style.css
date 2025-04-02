@@ -1,0 +1,204 @@
+/*General margin from the edges*/
+body {
+  margin: 10px;
+}
+
+/* .toast-container {
+  position: fixed; 
+  top: 20px; 
+  right: 20px; 
+  z-index: 1050; 
+} */
+
+
+/* Navbar styling */
+.navbar-menu-item {
+    color: #ffff;
+    background-color: #0E8EA8;
+    font-size: 18px;
+    border: none;
+    font-family: consolas;
+  }
+  /* Make DASHBOARD button look "active" */
+  .maindropbtn {
+    font-weight: bold;
+  }
+
+  .maindropbtn:hover {
+    color: #212529;
+    transition: 0.2s;
+  }
+
+  .navbar-menu-item:hover {
+    color: #212529;
+    transition: 0.2s;
+  }
+  
+  /* Content in submenu styling (Hidden) */
+  .navbar-sub-menu-item {
+    font-family: consolas;
+    min-width: 100%;
+    background-color: #83D1E1;
+    z-index: 2;
+    
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transform: translateY(-5px);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+/* Reveal submenu on hover */
+.dropdown:hover .navbar-sub-menu-item {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+  
+  /* Style text of navbar sub-menu items */
+  .navbar-sub-menu-item a {
+    color: #212529;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change text color of sub-menu items on hover */
+  .navbar-sub-menu-item a:hover {
+    color: #ffff;
+  }
+  
+/*------------------------Company style-------------------------*/
+
+  .custom-company-style {
+    font-family: Calibri;
+    color: #212529
+  }
+
+/*------------------------TABLE STYLING-------------------------*/
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 350px;
+  width: 100%;
+  padding-bottom: 4px;
+}
+table tr th,
+table tr td {
+  border-right: 1px solid #212529;
+  border-bottom: 1px solid #212529;
+  padding: 5px;
+}
+table tr th:first-child,
+table tr td:first-child {
+  border-left: 1px solid #212529;
+}
+table tr th {
+  background-color: #0E8EA8;
+  border-top: 1px solid #212529;
+  text-align: center;
+}
+
+/* top-left border-radius */
+table tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+
+/* top-right border-radius */
+table tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+
+/* bottom-left border-radius */
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+/* bottom-right border-radius */
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+/* tr {
+  background-color: #83D1E1;
+  font-family: calibri;
+  color: #212529;
+  text-align: center;
+} */
+
+.clickableRow {
+  background-color: #83D1E1;
+  font-family: calibri;
+  color: #212529;
+  text-align: center;
+  transition: 0.15s;
+}
+
+.clickedRow {
+  background-color: #198754;
+  font-family: calibri;
+  color: #212529;
+  text-align: center;
+  transition: 0.15s;
+}
+
+.unclickableRow {
+  background-color: #83D1E1;
+  font-family: calibri;
+  color: #212529;
+  text-align: center;
+}
+
+th {
+  font-family: consolas;
+  color: #fff;
+  text-align: center;
+}
+
+.clickedRow:hover {
+  transition: 0.15s;
+  background-color: #198754d4;
+}
+
+.clickableRow:hover {
+  transition: 0.15s;
+  background-color: #83d1e178;
+}
+
+/*-----------------BUTTON DESIGN------------*/
+
+.positive-button {
+  font-family: consolas;
+  background-color: #198754;
+  color: #fff;
+
+  border-radius: 5px;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.negative-button {
+  font-family: consolas;
+  background-color: #dc3545;
+  color: #fff;
+
+  border-radius: 5px;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.negative-button:hover {
+  background-color: #dc35467b;
+  transition: 0.4s;
+  color: #212529;
+}
+
+.positive-button:hover {
+  background-color: #1987547d;
+  transition: 0.4s;
+  color: #212529;
+}
+
+/*--------------------------------------------------*/
